@@ -23,7 +23,7 @@ the 8051 would output the temperature, relative humidity and received signal str
 Bi-direction Logic Level converters [https://www.sparkfun.com/products/12009]
 are used to interface the serial ports from the 8051 and the XBEE modules. 
 
-SPLD glue logic code used for memory mapping LCD to the 8051. SPLD can be avoided to interface LCD.
+SPLD glue logic code used for memory mapping LCD to the 8051.
 
 -----------------------
 Any updates, comments, changes, suggestions or revisions - please contact

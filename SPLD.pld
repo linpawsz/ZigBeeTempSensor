@@ -1,0 +1,31 @@
+Name            Lab4;
+Partno          AT16V8C;
+Revision        01;
+Date            11/11/2014;
+Designer        Swapnil;
+Company         CU Boulder;
+Location        None;
+Assembly        None;
+Device          g16v8a;
+
+/* INPUT PINS OF SPLD CONNECTED TO 8051 MICROCONTROLLER PINS */
+
+Pin2 = A15;
+Pin3 = A14;
+Pin5 = A13;
+Pin6 = A12;
+Pin9 = RD;
+Pin14 = WR;
+
+/* OUTPUT PINS OF SPLD */
+
+Pin15 = E;
+Pin16 = RW;
+Pin17 = RS;
+
+/* LOGIC DEFINITIONS */
+RDb = !RD;
+WRb = !WR;
+E = A15 & (RDb # WRb);
+RW = A14;
+RS = A13;
