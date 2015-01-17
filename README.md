@@ -25,6 +25,7 @@ are used to interface the serial ports from the 8051 and the XBEE modules.
 
 SPLD glue logic code used for memory mapping LCD to the 8051. SPLD can be avoided to interface LCD.
 
+C code written for SDCC compiler
 -----------------------
 Any updates, comments, changes, suggestions or revisions - please contact
 swapnil.paratey@gmail.com
